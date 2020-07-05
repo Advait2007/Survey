@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCXVJw_HmX9znO_rbSM7WnsKkxZMggiDEM",
+    authDomain: "a-survey-8a98b.firebaseapp.com",
+    databaseURL: "https://a-survey-8a98b.firebaseio.com",
+    projectId: "a-survey-8a98b",
+    storageBucket: "a-survey-8a98b.appspot.com",
+    messagingSenderId: "269407052148",
+    appId: "1:269407052148:web:5cfc6d7e38ad0e8e034c21"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<body>
+  <script src="sketch.js"></script>
+  <script src="Vote.js"></script>
+  <script src="Q1.js"></script>
+  <script src="Q2.js"></script>
+  <script src="Q3.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
